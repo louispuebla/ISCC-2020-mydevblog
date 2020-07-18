@@ -1,0 +1,93 @@
+@font-face{
+    font-family: "montserrat-regular";
+    src: url('Montserrat-Regular.ttf');
+}
+
+@font-face{
+    font-family: "raleway-regular";
+    src: url('Raleway-Regular.ttf');
+}
+
+body{
+    font-family: "montserrat-regular";
+    background-image: url(parc-des-princes.jpeg);
+    margin: 0;
+    background-size: 100%;
+    background-position: 50%50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+
+header{
+    font-family: "montserrat-regular";
+    opacity: 0.8;
+    }
+
+footer{
+    font-family: "montserrat-regular";
+    height: 170px;
+    width: 100%;
+    background-color: #ceab5d;
+    opacity: 0.8;
+    margin-top: 180px;
+
+}
+
+h1{
+    font-family: "raleway-regular";
+    font-size: 50px;
+    color: #ceab5d;
+}
+
+h2{
+    font-family: "raleway-regular";
+    font-size: 35px;
+    text-align: center;
+}
+
+h3{
+    color: rgb(1, 66, 106);
+    padding-left: 10%;
+}
+
+h4{
+    color: rgb(1, 66, 106);
+}
+p{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.articles{
+    border:2px solid rgb(218, 41, 28) ;
+}
+
+a { color: #ceab5d;
+    text-decoration: none;
+    text-align: center;
+}
+  
+a:hover{ 
+    color: rgb(255, 255, 255);
+    text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255)
+}
+
+.menu1{
+    height: 30px;
+    background-color: rgb(1, 66, 106);
+    padding-top: 10px;
+
+}
+
+.Instagram:hover{
+    border:2px solid rgb(255, 255, 255);
+}
+.Facebook:hover{
+    border:2px solid rgb(255, 255, 255);
+}
+.GitHub:hover{
+    border:2px solid rgb(255, 255, 255);
+}
+.Linkedin:hover{
+    border:2px solid rgb(255, 255, 255);
+}
